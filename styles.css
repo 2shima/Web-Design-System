@@ -1,42 +1,77 @@
-.section {
-    border: 1px solid black;
-    margin: 0 5%;
-    padding: 10px;
+@charset "UTF-8";
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 
-.color-container {
-    margin: 3px;
-    padding: 15px 0;
-    text-align: center;
-    width: 30%;
-    display: inline-block;
-    flex-wrap: wrap;
+h1, section {
+  margin: 1% 5%;
+}
+
+section {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.container {
+  margin: 3px;
+  padding: 15px 0;
+  display: inline-block;
+  flex-wrap: wrap;
+}
+
+.color {
+  text-align: center;
+  width: 30%;
 }
 
 .color-text-light {
-    color: white;
+  color: white;
 }
 
 #color-1 {
-    background-color: #ece5dd;
+  background-color: #ece5dd;
 }
 
 #color-2 {
-    background-color: #e0d0c1;
+  background-color: #e0d0c1;
 }
 
 #color-3 {
-    background-color: #c49f91;
+  background-color: #c49f91;
 }
 
 #color-4 {
-    background-color: #a76d60;
+  background-color: #a76d60;
 }
 
 #color-5 {
-    background-color: #844230;
+  background-color: #844230;
 }
 
 #color-6 {
-    background-color: #601700;
+  background-color: #601700;
+}
+
+.font {
+  text-align: left;
+  width: 40%;
+}
+
+.font-header {
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+#font-1 p {
+  font-family: "Oswald";
+}
+
+#font-2 p {
+  font-family: "Roboto";
+}
+
+#font-3 p {
+  font-family: "Lato";
 }
